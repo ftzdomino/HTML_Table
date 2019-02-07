@@ -38,7 +38,7 @@
     },
     "require": {
         "pear/pear-core-minimal": "^1.10.0",
-        "pear/html_common": "^1.2.5"
+        "pear/html_common": "dev-master"
     },
     "require-dev": {
         "pear/pear-core": "*"
