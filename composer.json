@@ -41,6 +41,6 @@
         "pear/html_common": "dev-master"
     },
     "require-dev": {
-        "pear/pear-core-minimal": "^1.10.0": "*"
+        "pear/pear-core-minimal": "^1.10.0"
     }
 }
