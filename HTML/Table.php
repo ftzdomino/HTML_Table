@@ -173,7 +173,7 @@ class HTML_Table extends HTML_Common {
      */
     function __construct($attributes = null, $tabOffset = 0, $useTGroups = false)
     {
-        HTML_Common::HTML_Common($attributes, (int)$tabOffset);
+        parent::__construct($attributes, (int)$tabOffset);
         $this->_useTGroups = (boolean)$useTGroups;
         $this->addBody();
         if ($this->_useTGroups) {
@@ -695,7 +695,7 @@ class HTML_Table extends HTML_Common {
      * @param    string    $type         (optional) Cell type either 'th' or 'td'
      * @param    bool      $inTR         false if attributes are to be applied
      *                                   in TD tags; true if attributes are to
-     *                                  ´be applied in TR tag
+     *                                  Â´be applied in TR tag
      * @param    int       $body         (optional) The index of the body to use.
      * @return   int
      * @access   public
